@@ -8,11 +8,11 @@
 
 4.Copy this entire folder containing project files as it is and not just the files to the location X:\xampp\phpMyAdmin\
   NOTE:Here "X" is the drive name in which XAMPP has been installed.
-       For example, if your folder name containing all the project files including this README file is "ankiProjectDBMS" then final location of this folder after copy should be X:\xampp\phpMyAdmin\ankiProjectDBMS
+       For example, if your folder name containing all the project files including this README file is "ProjectDBMS" then final location of this folder after copy should be X:\xampp\phpMyAdmin\ProjectDBMS
 
 5.Then type the following command in command prompt:
-  X:/xampp/mysql/bin/mysql – u root -p dbmsproject < Y:/test.sql (sql file name)
+  X:/xampp/mysql/bin/mysql â€“ u root -p dbmsproject < Y:/test.sql (sql file name)
   NOTE: Here "X" is the drive name in which XAMPP has been installed and "Y" is the drive name in which "data.sql" file was copied to.
         Try to copy the data.sql file into the same drive as "X".
 
-6.Then go to browser and type :   http://localhost/phpmyadmin/ankiProjectDBMS/index.php
+6.Then go to browser and type :   http://localhost/phpmyadmin/ProjectDBMS/index.php
